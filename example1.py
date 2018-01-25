@@ -5,7 +5,7 @@ while 1:
     if name == 'exit':
         sys.exit()
     while 1:
-        try:
+        try: 
             age = float(raw_input('how old are you? '))
             break
         except ValueError:
