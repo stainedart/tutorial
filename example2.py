@@ -12,7 +12,7 @@ while 1:
                 num = int(values[0])
                 div = int(values[1])
             else:
-                number = int(textInput)
+                number = int(textInput)    
             break
         except ValueError:
             print 'Not a number try again.'
