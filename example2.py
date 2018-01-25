@@ -1,7 +1,7 @@
 import sys
 
 while 1:
-    while 1:
+    while 1:   
         try:
             textInput = raw_input('enter a number: ')
             values = textInput.split()
